@@ -1,0 +1,14 @@
+.dashboard-section .list-group-item-warning {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .dashboard-section .list-group-item-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .dashboard-section .list-group-item-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }

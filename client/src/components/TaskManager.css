@@ -1,0 +1,49 @@
+/* TaskManager.css */
+.task-manager {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  flex: 1;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.list-group-item {
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+

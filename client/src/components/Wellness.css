@@ -1,0 +1,117 @@
+/* General Container Styles */
+.wellness-container {
+  padding: 40px;
+  background-color: #f4f7f6;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.wellness-header h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Wellness Card Styles */
+.wellness-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.save-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Toggle Styles */
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Exercise List Styles */
+.exercise-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-list ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.break-time {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .wellness-container {
+    padding: 20px;
+  }
+
+  .save-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .input-field {
+    font-size: 0.9rem;
+  }
+}
